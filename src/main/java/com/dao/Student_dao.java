@@ -18,10 +18,6 @@ public class Student_dao {
 		Session ss = sf.openSession();
 		Transaction tr = ss.beginTransaction();
 
-//		int id = 1;
-//		Student s = ss.get(Student.class, id);
-//		s.setId(id);
-
 		Student s = new Student();
 		s.setId(4);
 		s.setName("Sagar");
